@@ -12,6 +12,7 @@ public class Principal {
 		Persona p2 = new Estudiante("Fernando","Pérez",18,3000);
 		System.out.println(p2.toString());
 		System.out.println(((Estudiante)p2).getBeca());
+		System.out.println(((Estudiante)p2).getBeca());
 
 	}
 
